@@ -46,13 +46,13 @@ const TestimonialSlider = () => {
         clickable: true,
       }}
       modules={[Navigation, Pagination]}
-      className="h-[400px]"
+      className="h-[320px] md:h-[300px] lg:h-[400px]"
     >
       {testimonialData.map((person, i) => (
         <SwiperSlide key={i}>
-          <div className="flex flex-col items-center md:flex-row gap-x-8 h-full px-16">
+          <div className="flex flex-col items-center md:flex-row md:gap-x-4 lg:gap-x-8 h-full px-6 md:px-16">
             {/* avatar, name, position */}
-            <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
+            <div className="w-full md:max-w-[300px] lg:max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
               <div className="flex flex-col justify-center text-center">
                 {/* avatar */}
                 <div className="mb-2 mx-auto">
@@ -65,10 +65,10 @@ const TestimonialSlider = () => {
                 </div>
 
                 {/* name */}
-                <div className="text-xl">{person.name}</div>
+                <div className="text-lg md:text-xl">{person.name}</div>
 
                 {/* position */}
-                <div className="text-[16px] uppercase font-light tracking-widest">
+                <div className=" text-[14px] md:text-[16px] uppercase font-light tracking-widest">
                   {person.position}
                 </div>
               </div>
@@ -79,13 +79,13 @@ const TestimonialSlider = () => {
               {/* quote icon */}
               <div className="mb-4">
                 <FaQuoteLeft
-                  className="text-4xl xl:text-6xl text-[#364a61] mx-auto md:mx-0"
+                  className="text-2xl md:text-4xl xl:text-6xl text-[#364a61] mx-auto md:mx-0"
                   aria-aria-hidden
                 />
               </div>
 
               {/* message */}
-              <div className="xl:text-lg text-center md:text-left">
+              <div className="text-base xl:text-lg text-center md:text-left">
                 {person.message}
               </div>
             </div>

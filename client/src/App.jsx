@@ -18,12 +18,8 @@ function App() {
               {/* <Route path="/" element={<SignUp />}></Route> */}
               {/* <Route path="/" element={<Login />}></Route> */}
               {/* <Route path="/about" element={<About />}></Route>
-              <Route path="/contact" element={<Contact />}></Route>
-              <Route path="/services" element={<Service />}></Route>
-              <Route path="/testimonials" element={<Testimonial />}></Route>
-              <Route path="/work" element={<Work />}></Route> */}
-            </Routes>
-          </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
