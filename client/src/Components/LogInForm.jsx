@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LogInForm = ({header, footer,button,text}) => {  
     return (
@@ -23,7 +24,7 @@ const LogInForm = ({header, footer,button,text}) => {
           </form>
 
           
-          <p className="mt-4 text-sm text-gray-600 flex items-center justify-center">{text} <a href="#" className="text-blue-500">{footer}</a></p>
+          <p className="mt-4 text-sm text-gray-600 flex items-center justify-center">{text} <Link to={`${footer=="Sign Up"?"/signup":"/login"}`} className="text-blue-500">{footer}</Link></p>
           
         </div>
       </div>
