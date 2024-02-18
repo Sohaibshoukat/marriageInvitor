@@ -26,7 +26,7 @@ const SignUpForm = ({ header, footer, button, text }) => {
                 id="name"
                 name="name"
                 placeholder="Name"
-                className=" text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-amber-200"
+                className=" text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
             </div>
 
@@ -38,7 +38,7 @@ const SignUpForm = ({ header, footer, button, text }) => {
                 id="email"
                 name="email"
                 placeholder="Email Address"
-                className=" text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-orange-200"
+                className=" text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
             </div>
 
@@ -50,7 +50,7 @@ const SignUpForm = ({ header, footer, button, text }) => {
                 id="mobileNumber"
                 name="mobileNumber"
                 placeholder="Mobile Number"
-                className=" text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-blue-300"
+                className=" text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
             </div>
 
@@ -62,7 +62,7 @@ const SignUpForm = ({ header, footer, button, text }) => {
                 id="password"
                 name="password"
                 placeholder="Password"
-                className="text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-blue-300"
+                className="text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
               <button
                 type="button"
@@ -85,7 +85,7 @@ const SignUpForm = ({ header, footer, button, text }) => {
                 id="confirmPassword"
                 name="confirmPassword"
                 placeholder="Confirm Password"
-                className="text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-blue-300"
+                className="text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
             </div>
             <br />

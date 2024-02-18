@@ -24,7 +24,7 @@ const LogInForm = ({ header, footer, button, text }) => {
                 id="email"
                 name="email"
                 placeholder="Email Address"
-                className="text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-orange-200"
+                className="text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
             </div>
 
@@ -36,7 +36,7 @@ const LogInForm = ({ header, footer, button, text }) => {
                 id="password"
                 name="password"
                 placeholder="Password"
-                className="text-xl mt-1 px-4 py-2 w-full border rounded-3xl focus:outline-none focus:ring focus:border-blue-300"
+                className="text-xl mt-1 px-4 py-2 w-full border-2 rounded-xl focus:outline-none ease-in-out duration-200 focus:ring focus:border-amber-700"
               />
               <button
                 type="button"
@@ -44,9 +44,9 @@ const LogInForm = ({ header, footer, button, text }) => {
                 className="text-gray-500 focus:outline-none"
               >
                 {showPassword ? (
-                  <i className="fas fa-eye-slash"></i>
+                  <i className="fas fa-eye-slash text-black"></i>
                 ) : (
-                  <i className="fas fa-eye"></i>
+                  <i className="fas fa-eye text-black"></i>
                 )}
               </button>
             </div>
