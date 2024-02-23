@@ -6,10 +6,13 @@ import Banner4 from "../assets/Banner4.jpg"
 import { motion } from "framer-motion";
 import TestimonialSlider from '../Components/TestimonialSlider';
 import Steps from '../Components/Steps';
+import Nav from '../Components/Nav'
 
 const Home = () => {
   return (
     <>
+        <Nav/>
+
       <div className='flex flex-col md:flex-row justify-between gap-6 px-8 md:px-14 lg:px-20 xl:px-36 py-12 m-auto mb-10'>
         <div className='text-left basis-[45%]'>
           <h1 className='text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-semibold mb-2 md:mb-5 lg:leading-[2.5rem] xl:leading-[4.5rem]'>Your Heartfelt Invitation <br /> Now on Your <br />Guest's Screens</h1>
